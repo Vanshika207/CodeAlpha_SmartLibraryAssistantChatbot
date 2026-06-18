@@ -339,8 +339,9 @@ input:focus-visible {
 }
 
 .popular-panel {
+    flex: 1 1 auto;
     min-height: 0;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 .popular-list {
